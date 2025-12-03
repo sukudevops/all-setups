@@ -8,7 +8,7 @@ sudo -i
 sudo -i
 
 2. passwd root
-3. vim /etc/ssh/sshd_config (uncomment: 38 , no=yes: 63)
+3. vim /etc/ssh/sshd_config (uncomment: 40 , no=yes: 65)
 4. systemctl restart sshd
 5. systemctl status sshd
 
